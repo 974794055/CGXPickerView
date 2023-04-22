@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B3D332FE2741671F523B716A9664437 /* CGXPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E93FC76EE60895FA343B2AA6D8F5D6 /* CGXPickerView.swift */; };
+		281FAA1A04C5AAAEF6A55E4A3FC582D4 /* CGXPickerViewBaseUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1987359A656ECECA03505446C5C69BE /* CGXPickerViewBaseUI.swift */; };
+		2FB67A9B533547496EE1CAAC3E68429D /* CGXPickerViewAddressProvinceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A500FCDC5030A39ED1D691F117B0C06 /* CGXPickerViewAddressProvinceModel.swift */; };
+		46741370AFDA51CACC7886FB3983518D /* CGXPickerViewAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78338008311683747005BF8376FC454 /* CGXPickerViewAddress.swift */; };
+		57572DDB2BCDFF9C1D1719A73C5BF9FC /* CGXPickerViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E566590AFED8079C074EE2F624F15FB5 /* CGXPickerViewManager.swift */; };
+		5D19E26A9D11CFFA65B73EB7189FAE57 /* CGXPickerViewAddressTownModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC45F1C6201EEC7B336EE91D29654AB /* CGXPickerViewAddressTownModel.swift */; };
+		6253A694C606A4088760136EADA3C423 /* CGXPickerViewAddressCityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0B7DA51840E7D57844C457C7611DB /* CGXPickerViewAddressCityModel.swift */; };
+		751CEE3469B59035C02BF53AF453C028 /* CGXPickerViewTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E25273EDC70838A9EE33F1CA0E53F /* CGXPickerViewTopView.swift */; };
+		756A3217524C8B96E36D05B1097152D7 /* CGXPickerViewString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6652801B8A3A3EB9907D33901FAF5C1 /* CGXPickerViewString.swift */; };
+		B0A1EFFF45772C478F38848006AD8E1B /* Pods-CGXPickerView-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66890BB6BDBBB8BB3029C08CA5A38557 /* Pods-CGXPickerView-Swift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA6C3E6C61B4418C9A2179758E0262AE /* CGXPickerViewSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8E98631D90B3B72E264FD90D7EF192 /* CGXPickerViewSwift-dummy.m */; };
+		BBCF44A64938B93F8D6CF83A425AC9C8 /* CGXPickerViewDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9CC1689F2F47189E33413366F09B62 /* CGXPickerViewDate.swift */; };
+		CB563234A8C5BB7F89BC6539BE5C7F17 /* CGXPickerViewSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C218BB4B611C6AEACED85D2460CAD5A8 /* CGXPickerViewSwift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E71C6C80EC4ECC165B354CDED78901CC /* Pods-CGXPickerView-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 219D25CD1A432078EA5B61CDBF3A85E8 /* Pods-CGXPickerView-Swift-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99BB7C433259C594D6E1BBA701C0B0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 916066EB401C205EAA85C011AF88EAB3;
+			remoteInfo = CGXPickerViewSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		126FABD4F3C575B7B572C7F7CC3CC423 /* CGXPickerView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CGXPickerView.bundle; path = CGXPickerViewSwift/CGXPickerView.bundle; sourceTree = "<group>"; };
+		1A9CC1689F2F47189E33413366F09B62 /* CGXPickerViewDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGXPickerViewDate.swift; path = CGXPickerViewSwift/CGXPickerViewDate.swift; sourceTree = "<group>"; };
+		1D5DE886AAFE693783BAB3D9CD5B358B /* Pods-CGXPickerView-Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGXPickerView-Swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		219D25CD1A432078EA5B61CDBF3A85E8 /* Pods-CGXPickerView-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGXPickerView-Swift-dummy.m"; sourceTree = "<group>"; };
+		3A500FCDC5030A39ED1D691F117B0C06 /* CGXPickerViewAddressProvinceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGXPickerViewAddressProvinceModel.swift; path = CGXPickerViewSwift/CGXPickerViewAddressProvinceModel.swift; sourceTree = "<group>"; };
+		3F1E25273EDC70838A9EE33F1CA0E53F /* CGXPickerViewTopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGXPickerViewTopView.swift; path = CGXPickerViewSwift/CGXPickerViewTopView.swift; sourceTree = "<group>"; };
+		4769F92585DC397D97EE18D473011ACE /* CGXPickerViewSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGXPickerViewSwift-prefix.pch"; sourceTree = "<group>"; };
+		4DE0B7DA51840E7D57844C457C7611DB /* CGXPickerViewAddressCityModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGXPickerViewAddressCityModel.swift; path = CGXPickerViewSwift/CGXPickerViewAddressCityModel.swift; sourceTree = "<group>"; };
+		66890BB6BDBBB8BB3029C08CA5A38557 /* Pods-CGXPickerView-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CGXPickerView-Swift-umbrella.h"; sourceTree = "<group>"; };
+		6737214BE314B6BA5B13694B60AF19EB /* Pods-CGXPickerView-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CGXPickerView-Swift.modulemap"; sourceTree = "<group>"; };
+		68D60FC8AA8A7C841CA9154756052EA3 /* CGXPickerViewSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXPickerViewSwift.debug.xcconfig; sourceTree = "<group>"; };
+		7759A1A943218CF1D9E561C8804F2966 /* Pods-CGXPickerView-Swift */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-CGXPickerView-Swift"; path = "libPods-CGXPickerView-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC45F1C6201EEC7B336EE91D29654AB /* CGXPickerViewAddressTownModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGXPickerViewAddressTownModel.swift; path = CGXPickerViewSwift/CGXPickerViewAddressTownModel.swift; sourceTree = "<group>"; };
+		8EDAB69ECE61D63AEAF3E3F662F1A379 /* Pods-CGXPickerView-Swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CGXPickerView-Swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EDC32076F40282C6D986797972CB114 /* Pods-CGXPickerView-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGXPickerView-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4E93FC76EE60895FA343B2AA6D8F5D6 /* CGXPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGXPickerView.swift; path = CGXPickerViewSwift/CGXPickerView.swift; sourceTree = "<group>"; };
+		B78338008311683747005BF8376FC454 /* CGXPickerViewAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGXPickerViewAddress.swift; path = CGXPickerViewSwift/CGXPickerViewAddress.swift; sourceTree = "<group>"; };
+		BA584DE9C8BD2FBE7FA69F0052D64792 /* CGXPickerViewSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXPickerViewSwift.release.xcconfig; sourceTree = "<group>"; };
+		C218BB4B611C6AEACED85D2460CAD5A8 /* CGXPickerViewSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGXPickerViewSwift-umbrella.h"; sourceTree = "<group>"; };
+		C6652801B8A3A3EB9907D33901FAF5C1 /* CGXPickerViewString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGXPickerViewString.swift; path = CGXPickerViewSwift/CGXPickerViewString.swift; sourceTree = "<group>"; };
+		CEFB7243FDDF7E44DE52EE54BD8491AA /* CGXPickerViewSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CGXPickerViewSwift.modulemap; sourceTree = "<group>"; };
+		CFEB8172EB2745D9694C3520F1F94859 /* CGXPickerViewSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CGXPickerViewSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1C50CC566AB80DE9C9F3FE2A685BE86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E4C2C30F3584D024C8883484571CD084 /* Pods-CGXPickerView-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGXPickerView-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		E566590AFED8079C074EE2F624F15FB5 /* CGXPickerViewManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGXPickerViewManager.swift; path = CGXPickerViewSwift/CGXPickerViewManager.swift; sourceTree = "<group>"; };
+		EC8E98631D90B3B72E264FD90D7EF192 /* CGXPickerViewSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CGXPickerViewSwift-dummy.m"; sourceTree = "<group>"; };
+		ECFC3A3C0F2E9E367D2D71E3171AD776 /* Pods-CGXPickerView-Swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CGXPickerView-Swift-resources.sh"; sourceTree = "<group>"; };
+		F1987359A656ECECA03505446C5C69BE /* CGXPickerViewBaseUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGXPickerViewBaseUI.swift; path = CGXPickerViewSwift/CGXPickerViewBaseUI.swift; sourceTree = "<group>"; };
+		F89EF29E0CA12A4D934149E6BA14CCE8 /* CGXPickerViewSwift */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = CGXPickerViewSwift; path = libCGXPickerViewSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		902DA31C04288F6B07FC3A373A32FB92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0453767EADE82C520E77010F6F1B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A619DD02499EEB728ECE79D34B5BBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB7243FDDF7E44DE52EE54BD8491AA /* CGXPickerViewSwift.modulemap */,
+				EC8E98631D90B3B72E264FD90D7EF192 /* CGXPickerViewSwift-dummy.m */,
+				4769F92585DC397D97EE18D473011ACE /* CGXPickerViewSwift-prefix.pch */,
+				C218BB4B611C6AEACED85D2460CAD5A8 /* CGXPickerViewSwift-umbrella.h */,
+				68D60FC8AA8A7C841CA9154756052EA3 /* CGXPickerViewSwift.debug.xcconfig */,
+				BA584DE9C8BD2FBE7FA69F0052D64792 /* CGXPickerViewSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "CGXPickerView-Swift/Pods/Target Support Files/CGXPickerViewSwift";
+			sourceTree = "<group>";
+		};
+		3E765E0AD1BE25DA7E44EF316AC93E40 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC913F35A7319812DA44CAAECFFBB27F /* Pods-CGXPickerView-Swift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5CC75520648BCBE8AD36912BCFDEF677 /* CGXPickerViewSwift */ = {
+			isa = PBXGroup;
+			children = (
+				126FABD4F3C575B7B572C7F7CC3CC423 /* CGXPickerView.bundle */,
+				A4E93FC76EE60895FA343B2AA6D8F5D6 /* CGXPickerView.swift */,
+				B78338008311683747005BF8376FC454 /* CGXPickerViewAddress.swift */,
+				4DE0B7DA51840E7D57844C457C7611DB /* CGXPickerViewAddressCityModel.swift */,
+				3A500FCDC5030A39ED1D691F117B0C06 /* CGXPickerViewAddressProvinceModel.swift */,
+				8BC45F1C6201EEC7B336EE91D29654AB /* CGXPickerViewAddressTownModel.swift */,
+				F1987359A656ECECA03505446C5C69BE /* CGXPickerViewBaseUI.swift */,
+				1A9CC1689F2F47189E33413366F09B62 /* CGXPickerViewDate.swift */,
+				E566590AFED8079C074EE2F624F15FB5 /* CGXPickerViewManager.swift */,
+				C6652801B8A3A3EB9907D33901FAF5C1 /* CGXPickerViewString.swift */,
+				3F1E25273EDC70838A9EE33F1CA0E53F /* CGXPickerViewTopView.swift */,
+				E926F10264568F18D84727FE91FFE64E /* Pod */,
+				07A619DD02499EEB728ECE79D34B5BBA /* Support Files */,
+			);
+			name = CGXPickerViewSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BE8E96AE74EA134AED9543B3765E19BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F89EF29E0CA12A4D934149E6BA14CCE8 /* CGXPickerViewSwift */,
+				7759A1A943218CF1D9E561C8804F2966 /* Pods-CGXPickerView-Swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DA1BCA2E3C109C5F0AECF57DDEA18A98 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				BE8E96AE74EA134AED9543B3765E19BB /* Products */,
+				3E765E0AD1BE25DA7E44EF316AC93E40 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA1BCA2E3C109C5F0AECF57DDEA18A98 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CC75520648BCBE8AD36912BCFDEF677 /* CGXPickerViewSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E926F10264568F18D84727FE91FFE64E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CFEB8172EB2745D9694C3520F1F94859 /* CGXPickerViewSwift.podspec */,
+				E1C50CC566AB80DE9C9F3FE2A685BE86 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FC913F35A7319812DA44CAAECFFBB27F /* Pods-CGXPickerView-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6737214BE314B6BA5B13694B60AF19EB /* Pods-CGXPickerView-Swift.modulemap */,
+				8EDAB69ECE61D63AEAF3E3F662F1A379 /* Pods-CGXPickerView-Swift-acknowledgements.markdown */,
+				1D5DE886AAFE693783BAB3D9CD5B358B /* Pods-CGXPickerView-Swift-acknowledgements.plist */,
+				219D25CD1A432078EA5B61CDBF3A85E8 /* Pods-CGXPickerView-Swift-dummy.m */,
+				ECFC3A3C0F2E9E367D2D71E3171AD776 /* Pods-CGXPickerView-Swift-resources.sh */,
+				66890BB6BDBBB8BB3029C08CA5A38557 /* Pods-CGXPickerView-Swift-umbrella.h */,
+				8EDC32076F40282C6D986797972CB114 /* Pods-CGXPickerView-Swift.debug.xcconfig */,
+				E4C2C30F3584D024C8883484571CD084 /* Pods-CGXPickerView-Swift.release.xcconfig */,
+			);
+			name = "Pods-CGXPickerView-Swift";
+			path = "Target Support Files/Pods-CGXPickerView-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		607C8E242BE56421AF0A4B38FC408E19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A1EFFF45772C478F38848006AD8E1B /* Pods-CGXPickerView-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9493EE93F157A9E0620B3E0E6D82595 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB563234A8C5BB7F89BC6539BE5C7F17 /* CGXPickerViewSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		207D3F17A9DA224DF579B3CE97196CEB /* Pods-CGXPickerView-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06698DDC9B699FF5E9AD2FE0D6BCE90A /* Build configuration list for PBXNativeTarget "Pods-CGXPickerView-Swift" */;
+			buildPhases = (
+				607C8E242BE56421AF0A4B38FC408E19 /* Headers */,
+				27614B318F999E051F39A7AF9DEA7ED3 /* Sources */,
+				902DA31C04288F6B07FC3A373A32FB92 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3937A459FC26D76B1AD01FB42B884526 /* PBXTargetDependency */,
+			);
+			name = "Pods-CGXPickerView-Swift";
+			productName = "Pods-CGXPickerView-Swift";
+			productReference = 7759A1A943218CF1D9E561C8804F2966 /* Pods-CGXPickerView-Swift */;
+			productType = "com.apple.product-type.library.static";
+		};
+		916066EB401C205EAA85C011AF88EAB3 /* CGXPickerViewSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4642C9D06F2A8860F2A5FE45D2D040FD /* Build configuration list for PBXNativeTarget "CGXPickerViewSwift" */;
+			buildPhases = (
+				D9493EE93F157A9E0620B3E0E6D82595 /* Headers */,
+				9F597121B44CA7FFBDCB947B631713F1 /* Sources */,
+				FF0453767EADE82C520E77010F6F1B26 /* Frameworks */,
+				C79E69ED6CD64140587F0C3DF1632004 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGXPickerViewSwift;
+			productName = CGXPickerViewSwift;
+			productReference = F89EF29E0CA12A4D934149E6BA14CCE8 /* CGXPickerViewSwift */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BE8E96AE74EA134AED9543B3765E19BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				916066EB401C205EAA85C011AF88EAB3 /* CGXPickerViewSwift */,
+				207D3F17A9DA224DF579B3CE97196CEB /* Pods-CGXPickerView-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C79E69ED6CD64140587F0C3DF1632004 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/CGXPickerViewSwift/CGXPickerViewSwift.modulemap",
+				"${PODS_ROOT}/Headers/Public/CGXPickerViewSwift/CGXPickerViewSwift-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/CGXPickerViewSwift-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CGXPickerViewSwift/CGXPickerViewSwift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CGXPickerViewSwift/CGXPickerViewSwift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27614B318F999E051F39A7AF9DEA7ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71C6C80EC4ECC165B354CDED78901CC /* Pods-CGXPickerView-Swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F597121B44CA7FFBDCB947B631713F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3D332FE2741671F523B716A9664437 /* CGXPickerView.swift in Sources */,
+				46741370AFDA51CACC7886FB3983518D /* CGXPickerViewAddress.swift in Sources */,
+				6253A694C606A4088760136EADA3C423 /* CGXPickerViewAddressCityModel.swift in Sources */,
+				2FB67A9B533547496EE1CAAC3E68429D /* CGXPickerViewAddressProvinceModel.swift in Sources */,
+				5D19E26A9D11CFFA65B73EB7189FAE57 /* CGXPickerViewAddressTownModel.swift in Sources */,
+				281FAA1A04C5AAAEF6A55E4A3FC582D4 /* CGXPickerViewBaseUI.swift in Sources */,
+				BBCF44A64938B93F8D6CF83A425AC9C8 /* CGXPickerViewDate.swift in Sources */,
+				57572DDB2BCDFF9C1D1719A73C5BF9FC /* CGXPickerViewManager.swift in Sources */,
+				756A3217524C8B96E36D05B1097152D7 /* CGXPickerViewString.swift in Sources */,
+				BA6C3E6C61B4418C9A2179758E0262AE /* CGXPickerViewSwift-dummy.m in Sources */,
+				751CEE3469B59035C02BF53AF453C028 /* CGXPickerViewTopView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3937A459FC26D76B1AD01FB42B884526 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CGXPickerViewSwift;
+			target = 916066EB401C205EAA85C011AF88EAB3 /* CGXPickerViewSwift */;
+			targetProxy = 99BB7C433259C594D6E1BBA701C0B0FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EFFA2D9F00B5AB7088BF2153EFBB549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EDC32076F40282C6D986797972CB114 /* Pods-CGXPickerView-Swift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CGXPickerView-Swift/Pods-CGXPickerView-Swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		795CDB705A40C7EFB273C856832C1D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D60FC8AA8A7C841CA9154756052EA3 /* CGXPickerViewSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CGXPickerViewSwift/CGXPickerViewSwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/CGXPickerViewSwift/CGXPickerViewSwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CGXPickerViewSwift;
+				PRODUCT_NAME = CGXPickerViewSwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA102FE88C0676F3C236AC77A7A6452B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA584DE9C8BD2FBE7FA69F0052D64792 /* CGXPickerViewSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CGXPickerViewSwift/CGXPickerViewSwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/CGXPickerViewSwift/CGXPickerViewSwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CGXPickerViewSwift;
+				PRODUCT_NAME = CGXPickerViewSwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E085C5A6B44CD990A543B6A6FE091E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C2C30F3584D024C8883484571CD084 /* Pods-CGXPickerView-Swift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CGXPickerView-Swift/Pods-CGXPickerView-Swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06698DDC9B699FF5E9AD2FE0D6BCE90A /* Build configuration list for PBXNativeTarget "Pods-CGXPickerView-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EFFA2D9F00B5AB7088BF2153EFBB549 /* Debug */,
+				E085C5A6B44CD990A543B6A6FE091E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4642C9D06F2A8860F2A5FE45D2D040FD /* Build configuration list for PBXNativeTarget "CGXPickerViewSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795CDB705A40C7EFB273C856832C1D28 /* Debug */,
+				DA102FE88C0676F3C236AC77A7A6452B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

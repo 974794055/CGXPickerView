@@ -1,0 +1,6 @@
+module CGXPickerViewSwift {
+  umbrella header "CGXPickerViewSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

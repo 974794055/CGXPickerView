@@ -1,0 +1,31 @@
+{
+  "name": "CGXPickerViewSwift",
+  "version": "0.0.1",
+  "summary": "a CGXPickerViewSwift选择器封装",
+  "description": "a CGXPickerViewSwift选择器封装",
+  "homepage": "https://github.com/974794055/CGXPickerView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "974794055": "974794055@qq.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/974794055/CGXPickerView.git",
+    "tag": "0.0.1"
+  },
+  "requires_arc": true,
+  "resources": "CGXPickerViewSwift/CGXPickerView.bundle",
+  "source_files": [
+    "CGXPickerViewSwift",
+    "CGXPickerViewSwift/**/*.swift"
+  ],
+  "public_header_files": [
+    "CGXPickerViewSwift",
+    "CGXPickerViewSwift/**/*.swift"
+  ]
+}

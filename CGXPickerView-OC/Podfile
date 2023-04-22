@@ -1,0 +1,5 @@
+platform:ios,'8.0'
+target "CGXPickerView-OC" do
+
+  pod 'CGXPickerViewOC', :path => '../'
+end

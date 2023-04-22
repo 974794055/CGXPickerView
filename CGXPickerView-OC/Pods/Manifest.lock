@@ -1,0 +1,29 @@
+PODS:
+  - CGXPickerViewOC (0.0.1):
+    - CGXPickerViewOC/AddressView (= 0.0.1)
+    - CGXPickerViewOC/Base (= 0.0.1)
+    - CGXPickerViewOC/Custom (= 0.0.1)
+    - CGXPickerViewOC/DateView (= 0.0.1)
+    - CGXPickerViewOC/StringView (= 0.0.1)
+  - CGXPickerViewOC/AddressView (0.0.1):
+    - CGXPickerViewOC/Base
+  - CGXPickerViewOC/Base (0.0.1):
+    - CGXPickerViewOC/Custom
+  - CGXPickerViewOC/Custom (0.0.1)
+  - CGXPickerViewOC/DateView (0.0.1)
+  - CGXPickerViewOC/StringView (0.0.1):
+    - CGXPickerViewOC/Base
+
+DEPENDENCIES:
+  - CGXPickerViewOC (from `../`)
+
+EXTERNAL SOURCES:
+  CGXPickerViewOC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CGXPickerViewOC: 808ba3fe1ac7896c108c1b50922776c1cd98b43f
+
+PODFILE CHECKSUM: 540df02b0e33ab5ca6420314cad741f618d09600
+
+COCOAPODS: 1.10.1

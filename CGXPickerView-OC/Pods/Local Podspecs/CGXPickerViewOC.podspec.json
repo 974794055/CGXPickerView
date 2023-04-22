@@ -1,0 +1,61 @@
+{
+  "name": "CGXPickerViewOC",
+  "version": "0.0.1",
+  "summary": "a CGXPickerViewOC选择器封装",
+  "description": "a CGXPickerViewOC选择器封装",
+  "homepage": "https://github.com/974794055/CGXPickerView-OC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "974794055": "974794055@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/974794055/CGXPickerView-OC.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "CGXPickerViewOC/CGXPickerViewOC.h",
+  "public_header_files": "CGXPickerViewOC/CGXPickerViewOC.h",
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "Custom",
+      "source_files": "CGXPickerViewOC/Custom/**/*.{h,m}"
+    },
+    {
+      "name": "Base",
+      "source_files": "CGXPickerViewOC/Base/**/*.{h,m}",
+      "dependencies": {
+        "CGXPickerViewOC/Custom": [
+
+        ]
+      }
+    },
+    {
+      "name": "AddressView",
+      "source_files": "CGXPickerViewOC/AddressView/**/*.{h,m}",
+      "dependencies": {
+        "CGXPickerViewOC/Base": [
+
+        ]
+      }
+    },
+    {
+      "name": "DateView",
+      "source_files": "CGXPickerViewOC/DateView/**/*.{h,m}"
+    },
+    {
+      "name": "StringView",
+      "source_files": "CGXPickerViewOC/StringView/**/*.{h,m}",
+      "dependencies": {
+        "CGXPickerViewOC/Base": [
+
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+module Pods_CGXPickerView_Swift {
+  umbrella header "Pods-CGXPickerView-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

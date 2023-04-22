@@ -1,0 +1,136 @@
+//
+//  PrefixHeader.pch
+//  AppTemplateDemo
+//
+//  Created by AppTemplateDemo on 2022/1/27.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/**
+ * 项目名称（中文）
+ */
+
+#define AppTemplateDemoName [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"]
+//版本号
+#define AppTemplateDemoVersionBuild [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+//build号
+#define AppTemplateDemoVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
+
+#define AppTemplateDemoIdentifier [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"]
+
+#define RGBColorA(r,g,b,a)  [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+#define RGBColor(r,g,b)     RGBColorA(r,g,b,1)
+///颜色随机
+#define APPRandomColor      RGBColorA(arc4random()%256,arc4random()%256,arc4random()%256,1)
+// 背景透明
+#define AppAlertViewBg      RGBColorA(0, 0, 0, 0.4)
+/*APP 主色调*/
+#define AppThemeColor    RGBColor(0,181,146)
+/*背景灰色 */
+#define AppBackroudColor  [UIColor colorWithWhite:0.93 alpha:1]
+#define AppViewColor      [UIColor whiteColor]
+/*控件灰色*/
+#define AppViewGrayColor [UIColor colorWithRed:214.0/255.0 green:214.0/255.0 blue:214.0/255.0 alpha:1.0]
+/* APP辅色调*/
+#define AppAuxiliaryColor    RGBColor(153.0,153.0,153.0)
+/*APP重要文字色调*/
+#define AppMainColor         RGBColor(34.0,34.0,34.0)
+
+/*APP普通文字色调*/
+#define AppNormalColor     RGBColor(102.0,102.0,102.0)
+/*APP分割线和标签的描边色调*/
+#define APPLineBorderColor      RGBColor(204.0,204.0,204.0)
+/*APP模块内容的分割线*/
+#define APPLineColor            RGBColor(238.0,238.0,238.0)
+/*APP分隔模块的底色*/
+#define APPLineBGColor          RGBColor(242.0,242.0,242.0)
+/*APP价格提示文字色调*/
+#define APP_Price_Color         RGBColor(254.0,84.0,22.0)
+
+#define ScreenWidth   [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight  [UIScreen mainScreen].bounds.size.height
+#define ScreenSize [UIScreen mainScreen].bounds.size
+
+#define WEAKSELF               __weak typeof (self) weakSelf = self;
+#define WeakSelfType(type)      __weak typeof(type) weakType##type = type;
+#define WeakSelfStrong(type)    __strong typeof(type) type = weak##type;
+#define Weak(weakSelf)          __weak __typeof(&*self)weakSelf = self;
+
+#define kIpad [[UIDevice currentDevice].model isEqualToString:@"iPad"] || [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad
+
+///NavBar高度
+#define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define kNavBarHeight 44.0f
+///导航栏高度
+#define kTopHeight  (kStatusBarHeight + kNavBarHeight)
+///tab安全区域
+#define kSafeHeight    ((kStatusBarHeight>20) ? 34.0f : 0.0f)
+///导航栏安全区域
+#define kNavBarSafetyZone         ((kStatusBarHeight>20) ? 44.0f : 0.0f)
+#define kTabBarHeight  ((kStatusBarHeight>20) ? (49.0f+34.0f) : 49.0f)
+
+#define kScaleSpace(A) (floor(A * SizeScale))
+/***  线条高度 */
+#define kLineHeight(height) (height / [UIScreen mainScreen].scale)
+
+//字体自适应
+#define SizeScale                     (kIpad ? 1.6 : ScreenWidth / 375)
+
+#define FontText(font)                [UIFont systemFontOfSize:font*(SizeScale)]
+#define FontStm(font)                [UIFont systemFontOfSize:font*SizeScale]//系统
+#define FontBold(font)               [UIFont boldSystemFontOfSize:font*SizeScale]//粗体
+#define FontCustom(font, fontName)   [UIFont fontWithName:fontName size:font*SizeScale]//自定义
+/**
+ *  APP标题尺码
+ */
+#define APPTextFont17 FontText(17)
+#define APPTextFontBold17 FontCustom(17, @"Helvetica-Bold")
+/**
+ * APP16号尺码
+ */
+#define APPTextFont16 FontText(16)
+#define APPTextFontBold16 FontCustom(16, @"Helvetica-Bold")
+/**
+ * APP15号尺码
+ */
+#define APPTextFont15 FontText(15)
+#define APPTextFontBold15 FontCustom(15, @"Helvetica-Bold")
+/**
+ *  APP14号尺码
+ */
+#define APPTextFont14 FontText(14)
+#define APPTextFontBold14 FontCustom(14, @"Helvetica-Bold")
+/**
+ *  APP13号尺码
+ */
+#define APPTextFont13 FontText(13)
+#define APPTextFontBold13 FontCustom(13, @"Helvetica-Bold")
+/**
+ *  APP12号尺码
+ */
+#define APPTextFont12 FontText(12)
+#define APPTextFontBold12 FontCustom(12, @"Helvetica-Bold")
+/**
+ *  APP11号尺码
+ */
+#define APPTextFont11 FontText(11)
+#define APPTextFontBold11 FontCustom(11, @"Helvetica-Bold")
+/**
+ *  APP10号尺码
+ */
+#define APPTextFont10 FontText(10)
+#define APPTextFontBold10 FontCustom(10, @"Helvetica-Bold")
+
+//#ifdef DEBUG
+//#define NSLog(FORMAT, ...) fprintf(stderr,"\n %s:%d   %s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String],__LINE__, [[[NSString alloc] initWithData:[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] dataUsingEncoding:NSUTF8StringEncoding] encoding:NSNonLossyASCIIStringEncoding] UTF8String]);
+//#else
+//#define NSLog(...)
+//#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

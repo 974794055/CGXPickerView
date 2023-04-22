@@ -1,0 +1,16 @@
+PODS:
+  - CGXPickerViewSwift (0.0.1)
+
+DEPENDENCIES:
+  - CGXPickerViewSwift (from `../`)
+
+EXTERNAL SOURCES:
+  CGXPickerViewSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CGXPickerViewSwift: 3d89abaa4ea3dae7fd8e943dd89f04d8c8a82c58
+
+PODFILE CHECKSUM: 7b69138845f97770951cff111341fd4f3874460c
+
+COCOAPODS: 1.12.1
